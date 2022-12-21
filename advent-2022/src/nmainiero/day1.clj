@@ -5,6 +5,7 @@
 
 (def part-1-input (slurp "resources/day1.txt"))
 
+
 (defn list-with-calories [input]
   (->> input
        str/split-lines
@@ -27,5 +28,4 @@
   (part-1 sample)
   (part-1 part-1-input)
   (part-2 sample)
-  (part-2 part-1-input)
-)
+  (part-2 part-1-input))
